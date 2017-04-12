@@ -38,6 +38,7 @@ public class TimeFormatter {
 		} else {
 			formattedTime = " PM";
 		}
+		
 		formattedTime = formattedHours + ":" + formattedMinutes + formattedTime;
 
 		return formattedTime;
