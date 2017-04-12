@@ -2,7 +2,7 @@ package com.mycompany.conferencemanagement.util;
 
 public class Constant {
 
-	public static final String INPUT_FILE = "path_to_input_file";
+	public static final String INPUT_FILE = "/home/perceive/Work/Interview/documents/DVT/ASIGNMENTS/input_file";
 	
 	public static final String MORNING_SESSION = "Morning Session";
 	public static final String LUNCH = "Lunch";

@@ -2,6 +2,7 @@ package com.mycompany.conferencemanager.main;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -33,6 +34,9 @@ public class ConferenceScheduler {
 		}
 		
 		List<TimeSlot> timeSlots = FileParser.parseFile(inputFile);
+		
+		//Shuffle the proposals
+		Collections.shuffle(timeSlots);
 		
 		if(timeSlots.isEmpty()){
 			System.out.println("##### Please add the Input File entries first.");
