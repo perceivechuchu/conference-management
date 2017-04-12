@@ -1,4 +1,4 @@
-package za.co.rmb.conferencemanagement.util;
+package com.mycompany.conferencemanagement.util;
 
 public class TimeFormatter {
 

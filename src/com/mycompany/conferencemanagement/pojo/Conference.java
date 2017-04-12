@@ -1,4 +1,4 @@
-package za.co.rmb.conferencemanagement.pojo;
+package com.mycompany.conferencemanagement.pojo;
 
 import java.util.ArrayList;
 import java.util.List;

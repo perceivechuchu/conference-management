@@ -1,9 +1,10 @@
-package za.co.rmb.conferencemanagement.pojo;
+package com.mycompany.conferencemanagement.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import za.co.rmb.conferencemanagement.util.Constant;
+import com.mycompany.conferencemanagement.util.Constant;
+
 
 /**
  * @author perceive

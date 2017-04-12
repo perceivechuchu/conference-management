@@ -1,4 +1,4 @@
-package za.co.rmb.conferencemanagement.pojo;
+package com.mycompany.conferencemanagement.pojo;
 
 /**
  * @author Perceive Chuchu

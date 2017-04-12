@@ -1,4 +1,4 @@
-package za.co.rmb.conferencemanagement.util;
+package com.mycompany.conferencemanagement.util;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,7 +10,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import za.co.rmb.conferencemanagement.pojo.TimeSlot;
+import com.mycompany.conferencemanagement.pojo.TimeSlot;
+
 
 public class FileParser {
 

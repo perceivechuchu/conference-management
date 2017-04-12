@@ -1,17 +1,18 @@
-package za.co.rmb.conferencemanager.main;
+package com.mycompany.conferencemanager.main;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Iterator;
 import java.util.List;
 
-import za.co.rmb.conferencemanagement.pojo.Conference;
-import za.co.rmb.conferencemanagement.pojo.TimeSlot;
-import za.co.rmb.conferencemanagement.pojo.Session;
-import za.co.rmb.conferencemanagement.pojo.Track;
-import za.co.rmb.conferencemanagement.util.Constant;
-import za.co.rmb.conferencemanagement.util.FileParser;
-import za.co.rmb.conferencemanagement.util.TimeFormatter;
+import com.mycompany.conferencemanagement.pojo.Conference;
+import com.mycompany.conferencemanagement.pojo.Session;
+import com.mycompany.conferencemanagement.pojo.TimeSlot;
+import com.mycompany.conferencemanagement.pojo.Track;
+import com.mycompany.conferencemanagement.util.Constant;
+import com.mycompany.conferencemanagement.util.FileParser;
+import com.mycompany.conferencemanagement.util.TimeFormatter;
+
 
 /**
  * @author Perceive Chuchu
