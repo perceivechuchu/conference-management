@@ -17,6 +17,6 @@ public class Constant {
 	public static final int LUNCH_SESSION_DURATION = 60;
 	public static final int AFTERNOON_SESSION_DURATION = 240;
     
-    public static final int LIGHTING_PERIOD = 5;
+        public static final int LIGHTING_PERIOD = 5;
 
 }
