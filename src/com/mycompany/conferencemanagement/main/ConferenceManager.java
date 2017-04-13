@@ -26,7 +26,9 @@ public class ConferenceManager {
 
 	
 	public static void main(String[] args){
+		
 		File inputFile = null;
+		
 		try {
 			inputFile = new File(Constant.INPUT_FILE);
 		} catch (Exception e) {
