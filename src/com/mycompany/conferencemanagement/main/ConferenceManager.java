@@ -19,7 +19,7 @@ import com.mycompany.conferencemanagement.util.TimeFormatter;
  * @author Perceive Chuchu
  *
  */
-public class ConferenceScheduler {
+public class ConferenceManager {
 
 	public static int NEXT_START_TIME= Constant.MORNING_SESSION_START_TIME;
 	public static int ITERATION_COUNT = 1;
