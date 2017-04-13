@@ -1,4 +1,4 @@
-package com.mycompany.conferencemanager.main;
+package com.mycompany.conferencemanagement.main;
 
 import java.io.File;
 import java.io.FileNotFoundException;
