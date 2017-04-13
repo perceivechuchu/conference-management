@@ -94,13 +94,13 @@ public class ConferenceManager {
 	}
 
 	private static void addTimeSlotToSession(Session session, List<TimeSlot> timeSlots) {
-		for (Iterator<TimeSlot> iter = timeSlots.iterator(); iter.hasNext();) {
-			TimeSlot timeSlot = iter.next();
+		for (Iterator<TimeSlot> timeSlotIterator = timeSlots.iterator(); timeSlotIterator.hasNext();) {
+			TimeSlot timeSlot = timeSlotIterator.next();
 			if (session.getRemainingTime()>=timeSlot.getDuration()) {
 				timeSlot.setStartTime(TimeFormatter.formatTime(session.getNextStartTime()));
 				session.addTimeSlot(timeSlot);
 				NEXT_START_TIME = session.getNextStartTime();
-				iter.remove();
+				timeSlotIterator.remove();
 			}
 		}
 	}
